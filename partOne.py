@@ -1,8 +1,15 @@
 def main():
-    slow = input("Input ")
-    replace(slow)
+    slow = input(" press enter ")
+    myFunction(slow)
 
-def replace(text):
-  #Your code goes here.
-
+def myFunction(slow):
+    name = input("What's your name? ")
+    name=name.strip().title()
+    name = name.replace(" ", "...")
+    print(f" {name}")
+          
 main()
+          
+
+
+
